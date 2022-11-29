@@ -1,0 +1,109 @@
+*,*:before,*:after
+{
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+html,body
+{
+    height: 100%;
+
+}
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 325px;
+    gap: 20px;
+}
+.cell
+{
+    width: 150px;
+    height: 150px;
+    background-color: #ccc;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+      font-size: 2.5em;
+      color: #fff;
+      transition:0.5s;
+}
+
+/* cell 1 */
+.cell:nth-child(1)
+{
+    background-color: #a4161a;
+}
+.cell:nth-child(1):hover, .on
+{
+    transform: scale(1.05);
+}
+.cell:nth-child(1):active,.on
+{
+    background-color: #cd6264;
+}
+
+/* cell 2 */
+.cell:nth-child(2)
+{
+    background-color: #fca311;
+}
+.cell:nth-child(2):hover, .on
+{
+    transform: scale(1.05);
+}
+.cell:nth-child(2):active,.on
+{
+    background-color: #832161;
+}
+/* cell 3 */
+.cell:nth-child(3)
+{
+    background-color: #04724d;
+}
+.cell:nth-child(3):hover, .on
+{
+    transform: scale(1.05);
+}
+.cell:nth-child(3):active,.on
+{
+    background-color: #384d48;
+}
+/* cell 4 */
+.cell:nth-child(4)
+{
+    background-color: #012a9c;
+}
+.cell:nth-child(4):hover, .on
+{
+    transform: scale(1.05);
+}
+.cell:nth-child(4):active,.on
+{
+    background-color: #0b98d4;
+}
+
+button
+{
+    background-color: #9067c6;
+    color: #010101;
+    padding: 1em;
+    transition: 0.25s;
+    font-size: 10pt;
+}
+button:hover
+{
+    background-color: aqua;
+}
